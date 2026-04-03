@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniCAE | Unified Cross-modal Affective &amp; Empathetic Computing</title>
+    <meta
+      name="description"
+      content="UniCAE presents a research thread on unified cross-modal affective and empathetic computing, spanning emotion understanding, reasoning, and generation across language, speech, vision, avatars, and 3D."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&amp;family=Manrope:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="shell topbar-inner">
+        <a class="brand" href="#top" aria-label="UniCAE home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-copy">
+            <strong>UniCAE</strong>
+            <span>Unified Cross-modal Affective &amp; Empathetic Computing</span>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#top">Overview</a>
+          <a href="#research">Research</a>
+          <a href="#workshop">Community</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero-band">
+        <div class="shell hero">
+          <div class="hero-header reveal">
+            <!-- <p class="eyebrow">Research Thread</p> -->
+            <p class="hero-mark">UniCAE</p>
+            <h1>Unified Cross-modal Affective &amp; Empathetic Computing</h1>
+          </div>
+
+          <div class="hero-body">
+            <div class="hero-copy reveal">
+            <p class="hero-lead">
+              AI should not remain a cold parser of instructions. It should learn
+              to read human feelings, reason about emotional context, and respond
+              with empathy across language, speech, face, avatar, vision, and 3D.
+              UniCAE studies a unified paradigm for both affective comprehension
+              and affective generation.
+            </p>
+            <div class="hero-highlights">
+              <article class="highlight-block">
+                <p class="highlight-title">👉🏻 Affective Comprehension</p>
+                <p class="highlight-copy">
+                  Infer and reason about fine-grained sentiment and emotion from
+                  multimodal human signals, dialogue, behavior, speech, face,
+                  avatar, vision, and embodied context.
+                </p>
+              </article>
+              <article class="highlight-block">
+                <p class="highlight-title">👉🏻 Affective Generation</p>
+                <p class="highlight-copy">
+                  Generate emotionally aligned text, speech, facial expressions,
+                  avatars, and 3D motion that feel coherent to humans.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="hero-visual-frame">
+              <img
+                src="unicae-idea.png"
+                alt="Concept illustration of unified affective understanding and empathetic generation"
+                loading="eager"
+                decoding="async"
+              />
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="research-band" id="research">
+        <div class="shell">
+          <div class="section-head reveal">
+            <p class="eyebrow">Flagship Research</p>
+            <!-- <h2>From affective understanding to empathetic generation</h2>
+            <p class="section-summary">
+              The UniCAE thread connects two tightly coupled directions:
+              understanding emotion from rich human signals, and generating
+              emotionally grounded responses or embodiments across modalities.
+            </p> -->
+          </div>
+
+          <div class="track reveal">
+            <div class="track-head">
+              <div>
+                <p class="track-label track-a">Track A</p>
+                <h3>Cross-modal Affective Understanding &amp; Reasoning</h3>
+              </div>
+              <!-- <p class="track-summary">
+                Benchmarking how models detect sentiment targets, opinions,
+                rationales, dynamics, and discourse-level emotional structure.
+              </p> -->
+            </div>
+
+            <article class="paper-card">
+              <div class="paper-topline">
+                <div class="paper-meta">
+                  <span>ACL 2023 Findings</span>
+                  <span>Benchmark</span>
+                  <span>Dialogue ABSA</span>
+                </div>
+                <h4>
+                  DiaASQ: A Benchmark of Conversational Aspect-based Sentiment
+                  Quadruple Analysis
+                </h4>
+              </div>
+              <div class="paper-body">
+                <div class="paper-copy">
+                  <p class="paper-brief">
+                    A first step from sentence-level ABSA toward dialogue-native,
+                    fine-grained conversational sentiment understanding.
+                  </p>
+                  <ul class="paper-points">
+                    <li>
+                      Introduces conversational aspect-based sentiment quadruple
+                      analysis over multi-turn dialogue.
+                    </li>
+                    <li>
+                      Builds a bilingual Chinese-English benchmark with
+                      high-quality manual annotations.
+                    </li>
+                    <li>
+                      Establishes end-to-end quadruple prediction with
+                      dialogue-specific discourse modeling.
+                    </li>
+                  </ul>
+                  <div class="paper-links">
+                    <a
+                      class="button button-primary"
+                      href="https://diaasq-page.pages.dev/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Project
+                    </a>
+                    <a
+                      class="button button-secondary"
+                      href="https://arxiv.org/abs/2211.05705"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Paper
+                    </a>
+                  </div>
+                </div>
+                <div class="paper-figure">
+                  <img
+                    src="assets/DiaASQ.png"
+                    alt="Overview figure for DiaASQ"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+            </article>
+
+            <article class="paper-card">
+              <div class="paper-topline">
+                <div class="paper-meta">
+                  <span>ACM MM 2024 Oral</span>
+                  <span>Cross-modal Dialogue</span>
+                  <span>Reasoning</span>
+                </div>
+                <h4>
+                  PanoSent: A Panoptic Sextuple Extraction Benchmark for
+                  Cross-modal Conversational Aspect-based Sentiment Analysis
+                </h4>
+              </div>
+              <div class="paper-body">
+                <div class="paper-copy">
+                  <p class="paper-brief">
+                    A broader formulation of sentiment reasoning that treats
+                    multimodality, rationales, and sentiment dynamics as
+                    first-class citizens.
+                  </p>
+                  <ul class="paper-points">
+                    <li>
+                      Defines panoptic sentiment sextuple extraction and
+                      sentiment flipping analysis in multimodal conversation.
+                    </li>
+                    <li>
+                      Curates a large-scale multilingual dataset with holder,
+                      target, aspect, opinion, sentiment, and rationale labels.
+                    </li>
+                    <li>
+                      Proposes Chain-of-Sentiment reasoning with the Sentica
+                      multimodal model and verification mechanism.
+                    </li>
+                  </ul>
+                  <div class="paper-links">
+                    <a
+                      class="button button-primary"
+                      href="https://panosent.github.io/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Project
+                    </a>
+                    <a
+                      class="button button-secondary"
+                      href="https://www.arxiv.org/abs/2408.09481"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Paper
+                    </a>
+                    <a
+                      class="button button-tertiary"
+                      href="https://panosent.github.io/MM25-challenge/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Challenge
+                    </a>
+                  </div>
+                </div>
+                <div class="paper-figure">
+                  <img
+                    src="assets/PanoSent.png"
+                    alt="Overview figure for PanoSent"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="track reveal">
+            <div class="track-head">
+              <div>
+                <p class="track-label track-b">Track B</p>
+                <h3>Cross-modal Affective &amp; Empathetic Generation</h3>
+              </div>
+              <!-- <p class="track-summary">
+                Building open systems and benchmarks for multimodal empathetic
+                response generation, expressive avatars, and emotion-aware motion.
+              </p> -->
+            </div>
+
+            <article class="paper-card">
+              <div class="paper-topline">
+                <div class="paper-meta">
+                  <span>ACL 2024 Demo</span>
+                  <span>Open-source System</span>
+                  <span>Avatar Chatbot</span>
+                </div>
+                <h4>
+                  EmpathyEar: An Open-source Avatar Multimodal Empathetic Chatbot
+                </h4>
+              </div>
+              <div class="paper-body">
+                <div class="paper-copy">
+                  <p class="paper-brief">
+                    An open multimodal empathetic chatbot that turns text-only
+                    ERG into embodied avatar interaction.
+                  </p>
+                  <ul class="paper-points">
+                    <li>
+                      Accepts text, speech, and vision inputs in flexible
+                      combinations.
+                    </li>
+                    <li>
+                      Produces empathetic responses with text, talking face, and
+                      synchronized speech.
+                    </li>
+                    <li>
+                      Uses emotion-aware instruction tuning for deeper emotional
+                      resonance and human-like response quality.
+                    </li>
+                  </ul>
+                  <div class="paper-links">
+                    <a
+                      class="button button-primary"
+                      href="https://github.com/scofield7419/EmpathyEar"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Code
+                    </a>
+                    <a
+                      class="button button-secondary"
+                      href="https://arxiv.org/abs/2406.15177"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Paper
+                    </a>
+                  </div>
+                </div>
+                <div class="paper-figure">
+                  <img
+                    src="assets/EmpathyEar.png"
+                    alt="Overview figure for EmpathyEar"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+            </article>
+
+            <article class="paper-card">
+              <div class="paper-topline">
+                <div class="paper-meta">
+                  <span>WWW 2025</span>
+                  <span>Benchmark</span>
+                  <span>Text-Speech-Vision</span>
+                </div>
+                <h4>
+                  Towards Multimodal Empathetic Response Generation: A Rich
+                  Text-Speech-Vision Avatar-based Benchmark
+                </h4>
+              </div>
+              <div class="paper-body">
+                <div class="paper-copy">
+                  <p class="paper-brief">
+                    A benchmark and system for end-to-end multimodal empathetic
+                    response generation with authentic speech and avatar video.
+                  </p>
+                  <ul class="paper-points">
+                    <li>
+                      Introduces AvaMERG for avatar-based multimodal ERG with
+                      diverse profiles and real-world scenarios.
+                    </li>
+                    <li>
+                      Builds Empatheia on top of an MLLM with multimodal encoder,
+                      speech generator, and avatar generator.
+                    </li>
+                    <li>
+                      Adds Chain-of-Empathetic reasoning and empathy-enhanced
+                      tuning for emotional accuracy and cross-modal consistency.
+                    </li>
+                  </ul>
+                  <div class="paper-links">
+                    <a
+                      class="button button-primary"
+                      href="https://avamerg.github.io/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Project
+                    </a>
+                    <a
+                      class="button button-secondary"
+                      href="https://arxiv.org/abs/2502.04976"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Paper
+                    </a>
+                    <a
+                      class="button button-tertiary"
+                      href="https://avamerg.github.io/MM25-challenge/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Challenge
+                    </a>
+                  </div>
+                </div>
+                <div class="paper-figure">
+                  <img
+                    src="assets/MERG.png"
+                    alt="Overview figure for the multimodal empathetic response generation benchmark"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+            </article>
+
+            <article class="paper-card">
+              <div class="paper-topline">
+                <div class="paper-meta">
+                  <span>EMNLP 2025 Oral</span>
+                  <span>3D Expression</span>
+                  <span>Text-to-Face</span>
+                </div>
+                <h4>
+                  When Words Smile: Generating Diverse Emotional Facial
+                  Expressions from Text
+                </h4>
+              </div>
+              <div class="paper-body">
+                <div class="paper-copy">
+                  <p class="paper-brief">
+                    Emotional facial expression generation as a missing piece
+                    beyond lip synchronization for digital humans.
+                  </p>
+                  <ul class="paper-points">
+                    <li>
+                      Learns a continuous latent space for diverse, fluid, and
+                      emotionally coherent facial expressions.
+                    </li>
+                    <li>
+                      Introduces EmoAva with 15,000 text-to-3D-expression pairs.
+                    </li>
+                    <li>
+                      Advances text-driven expressive avatar generation for
+                      dialogue, gaming, and interactive agents.
+                    </li>
+                  </ul>
+                  <div class="paper-links">
+                    <a
+                      class="button button-primary"
+                      href="https://walkermitty.github.io/EmoAva/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Project
+                    </a>
+                    <a
+                      class="button button-secondary"
+                      href="https://arxiv.org/abs/2412.02508"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Paper
+                    </a>
+                  </div>
+                </div>
+                <div class="paper-figure">
+                  <img
+                    src="assets/3DEmotion.png"
+                    alt="Overview figure for emotional 3D avatar generation"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+            </article>
+
+            <article class="paper-card">
+              <div class="paper-topline">
+                <div class="paper-meta">
+                  <span>NeurIPS 2025</span>
+                  <span>Motion LLM</span>
+                  <span>Video RAG</span>
+                </div>
+                <h4>
+                  VimoRAG: Video-based Retrieval-augmented 3D Motion Generation
+                  for Motion Language Models
+                </h4>
+              </div>
+              <div class="paper-body">
+                <div class="paper-copy">
+                  <p class="paper-brief">
+                    Retrieval-augmented motion generation that leverages in-the-wild
+                    video as emotional and behavioral grounding for 3D motion.
+                  </p>
+                  <ul class="paper-points">
+                    <li>
+                      Addresses out-of-domain and out-of-vocabulary failure modes
+                      in motion language models.
+                    </li>
+                    <li>
+                      Retrieves motion-centered 2D video evidence with a Gemini
+                      Motion Video Retriever.
+                    </li>
+                    <li>
+                      Improves robustness with a motion-centric dual-alignment DPO
+                      trainer for generation after retrieval.
+                    </li>
+                  </ul>
+                  <div class="paper-links">
+                    <a
+                      class="button button-primary"
+                      href="https://walkermitty.github.io/VimoRAG/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Project
+                    </a>
+                    <a
+                      class="button button-secondary"
+                      href="https://arxiv.org/abs/2508.12081"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Paper
+                    </a>
+                  </div>
+                </div>
+                <div class="paper-figure">
+                  <img
+                    src="assets/VimoRAG.png"
+                    alt="Overview figure for VimoRAG"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="workshop-band" id="workshop">
+        <div class="shell">
+          <div class="section-head reveal">
+            <p class="eyebrow">Community</p>
+            <!-- <h2>Survey, shared benchmarks, and a growing research community</h2>
+            <p class="section-summary">
+              UniCAE is also a community-building thread: surveying the field,
+              organizing resources, and linking benchmark challenges that connect
+              affective understanding with empathetic generation.
+            </p> -->
+          </div>
+
+          <div class="workshop-stack reveal">
+            <article class="paper-card survey-card">
+              <div class="paper-topline">
+                <div class="paper-meta">
+                  <span>Survey</span>
+                  <span>In Progress</span>
+                  <span>UniCAE Roadmap</span>
+                </div>
+                <h4>
+                  A Survey on Unified Cross-modal Affective Comprehension and
+                  Generation
+                </h4>
+              </div>
+              <div class="paper-body">
+                <div class="paper-copy">
+                  <p class="paper-brief">
+                    A living survey that systematizes how future emotionally
+                    intelligent AI should jointly comprehend, reason, and
+                    generate affective content across modalities.
+                  </p>
+                  <ul class="paper-points">
+                    <li>
+                      Scope: language, speech, face, avatar, multimodal
+                      dialogue, expressive 3D, and embodied empathy.
+                    </li>
+                    <li>
+                      Focus: unified task taxonomies, datasets, benchmarks,
+                      models, evaluation, and open challenges.
+                    </li>
+                    <li>
+                      Status: paper in progress, intended as a roadmap for the
+                      UniCAE thread.
+                    </li>
+                  </ul>
+                  <div class="paper-links">
+                    <a
+                      class="button button-secondary"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      TBD
+                    </a>
+                    <!-- <a
+                      class="button button-secondary"
+                      href="https://avamerg.github.io/MM25-challenge/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      MERG Challenge
+                    </a> -->
+                  </div>
+                </div>
+                <div class="paper-figure survey-figure">
+                  <div class="survey-figure-copy">
+                    <p>Unified Affective</p>
+                    <p>Comprehension &amp; Generation</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="shell footer-inner">
+        <p class="footer-copy">
+          &copy; Copyright 2026 UniCAE: Unified Cross-modal Affective &amp;
+          Empathetic Computing. All rights reserved.
+        </p>
+        <p class="footer-contact">
+          Contact:
+          <a href="https://haofei.vip/" target="_blank" rel="noopener noreferrer">
+            Hao Fei
+          </a>
+          <a href="mailto:haofei7419@gmail.com">(haofei7419@gmail.com)</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
